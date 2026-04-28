@@ -1,0 +1,6 @@
+framework module DGCChatMessage {
+  umbrella header "DGCChatMessage-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -27,3 +27,4 @@ Pi0007, 420160412@qq.com
 ## License
 
 DGCChatMessage is available under the MIT license. See the LICENSE file for more info.
+# DGCChatMessage

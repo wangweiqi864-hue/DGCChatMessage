@@ -1,0 +1,22 @@
+{
+  "name": "DGCChatMessage",
+  "version": "0.1.0",
+  "summary": "A short description of DGCChatMessage.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Pi0007/DGCChatMessage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Pi0007": "420160412@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Pi0007/DGCChatMessage.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "DGCChatMessage/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module Pods_DGCChatMessage_Tests {
+  umbrella header "Pods-DGCChatMessage_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
