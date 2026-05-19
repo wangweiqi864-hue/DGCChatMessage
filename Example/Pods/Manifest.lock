@@ -1,50 +1,33 @@
 PODS:
-  - DGCChatMessage (0.1.0)
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - iOSSnapshotTestCase (8.0.0):
-    - iOSSnapshotTestCase/SwiftSupport (= 8.0.0)
-  - iOSSnapshotTestCase/Core (8.0.0)
-  - iOSSnapshotTestCase/SwiftSupport (8.0.0):
-    - iOSSnapshotTestCase/Core
-  - Nimble (10.0.0)
-  - Nimble-Snapshots (9.4.0):
-    - Nimble-Snapshots/Core (= 9.4.0)
-  - Nimble-Snapshots/Core (9.4.0):
-    - iOSSnapshotTestCase (~> 8.0)
-    - Nimble
-  - Quick (2.2.1)
+  - DGCChatMessage (0.1.0):
+    - DGCLog
+    - TXIMSDK_Plus_iOS (~> 7.8.5483)
+  - DGCLog (0.1.0):
+    - SwiftyBeaver
+  - SwiftyBeaver (1.9.5)
+  - TXIMSDK_Plus_iOS (7.8.5505)
 
 DEPENDENCIES:
   - DGCChatMessage (from `../`)
-  - FBSnapshotTestCase (~> 2.1.4)
-  - Nimble (~> 10.0.0)
-  - Nimble-Snapshots (~> 9.4.0)
-  - Quick (~> 2.2.0)
+  - DGCLog (from `../../DGCLog`)
 
 SPEC REPOS:
   trunk:
-    - FBSnapshotTestCase
-    - iOSSnapshotTestCase
-    - Nimble
-    - Nimble-Snapshots
-    - Quick
+    - SwiftyBeaver
+    - TXIMSDK_Plus_iOS
 
 EXTERNAL SOURCES:
   DGCChatMessage:
     :path: "../"
+  DGCLog:
+    :path: "../../DGCLog"
 
 SPEC CHECKSUMS:
-  DGCChatMessage: 1aaa544675cdffdcdaab727666bbcf6a5d11b6a9
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  iOSSnapshotTestCase: a670511f9ee3829c2b9c23e6e68f315fd7b6790f
-  Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
-  Nimble-Snapshots: ef281b908c604f78c8313587e25ea92c8ab513d7
-  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+  DGCChatMessage: 7b59c7ed0c61e90267d4400181cbef80370b36f8
+  DGCLog: 05b3a16dc7c9cda1e56d116f67dd858493b7fb21
+  SwiftyBeaver: 84069991dd5dca07d7069100985badaca7f0ce82
+  TXIMSDK_Plus_iOS: 753908b8ad2fd7dfac36fe0e9d12485493fbb6a7
 
-PODFILE CHECKSUM: 9517b4fa12814ce04b52f0fd42d0f4e6529615c8
+PODFILE CHECKSUM: f3c9f3b5f0010d81af8bc5c675ca6df4f19d3d9d
 
 COCOAPODS: 1.16.2

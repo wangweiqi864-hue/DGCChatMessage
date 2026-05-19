@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Pi0007/DGCChatMessage'
+  s.homepage         = 'https://github.com/admin/DGCChatMessage'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Pi0007' => '420160412@qq.com' }
-  s.source           = { :git => 'https://github.com/Pi0007/DGCChatMessage.git', :tag => s.version.to_s }
+  s.author           = { 'admin' => 'huan.xin@renrengame.com' }
+  s.source           = { :git => 'https://github.com/admin/DGCChatMessage.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'DGCChatMessage/Classes/**/*'
   
@@ -39,4 +39,6 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'DGCLog' # 需要在Podfile 先导入
+  s.dependency 'TXIMSDK_Plus_iOS', '~> 7.8.5483'
 end

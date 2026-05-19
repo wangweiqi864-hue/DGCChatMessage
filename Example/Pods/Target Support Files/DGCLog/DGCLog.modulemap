@@ -1,0 +1,6 @@
+framework module DGCLog {
+  umbrella header "DGCLog-umbrella.h"
+
+  export *
+  module * { export * }
+}

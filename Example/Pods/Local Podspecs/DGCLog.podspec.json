@@ -1,0 +1,25 @@
+{
+  "name": "DGCLog",
+  "version": "0.1.0",
+  "summary": "A short description of DGCLog.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/admin/DGCLog",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "admin": "huan.xin@renrengame.com"
+  },
+  "source": {
+    "git": "https://github.com/admin/DGCLog.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "DGCLog/Classes/**/*",
+  "dependencies": {
+    "SwiftyBeaver": []
+  }
+}

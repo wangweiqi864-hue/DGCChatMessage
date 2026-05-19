@@ -1,6 +1,6 @@
 # DGCChatMessage
 
-[![CI Status](https://img.shields.io/travis/Pi0007/DGCChatMessage.svg?style=flat)](https://travis-ci.org/Pi0007/DGCChatMessage)
+[![CI Status](https://img.shields.io/travis/admin/DGCChatMessage.svg?style=flat)](https://travis-ci.org/admin/DGCChatMessage)
 [![Version](https://img.shields.io/cocoapods/v/DGCChatMessage.svg?style=flat)](https://cocoapods.org/pods/DGCChatMessage)
 [![License](https://img.shields.io/cocoapods/l/DGCChatMessage.svg?style=flat)](https://cocoapods.org/pods/DGCChatMessage)
 [![Platform](https://img.shields.io/cocoapods/p/DGCChatMessage.svg?style=flat)](https://cocoapods.org/pods/DGCChatMessage)
@@ -22,9 +22,8 @@ pod 'DGCChatMessage'
 
 ## Author
 
-Pi0007, 420160412@qq.com
+admin, huan.xin@renrengame.com
 
 ## License
 
 DGCChatMessage is available under the MIT license. See the LICENSE file for more info.
-# DGCChatMessage
